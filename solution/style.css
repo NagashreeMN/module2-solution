@@ -26,14 +26,14 @@ h1{
 	font-family: "arial";
 	font-size: 1rem;
 }
-#sec1.sectitle{
+#sec1 .sectitle{
 	background-color: #6666ff;
 }
-#sec2.sectitle{
+#sec2 .sectitle{
 	background-color: #00cc99;
 }
-#sec3.sectitle{
-	background-color: #3366cc;
+#sec3 .sectitle{
+	background-color: #990000;
 }
 
 @media only screen and (max-width: 767px){
@@ -57,7 +57,7 @@ h1{
 
 @media only screen and (min-width: 992px){
 	#sec1,#sec2,#sec3{
-		width: 33.3%;
+		width: 33%;
 		display: inline-block;
 	}
 }
